@@ -1,22 +1,15 @@
 
 import './App.css';
+import Notebook from "./Components/notebook/Notebook";
 
 function App() {
   return (
   <div className={'item'}>
 
-    <div>
-    <h1>Brand: Apple</h1>
-    <h2>Model: Pro</h2>
-    <h2>Cost: 100</h2>
-    <img src={'https://s1.stc.all.kpcdn.net/putevoditel/projectid_346574/images/tild3930-3137-4530-b661-346465643363__mac-pro-4.jpg'} alt="Apple"/>
-  </div>
-    <div>
-    <h1>Brand: HP</h1>
-    <h2>Model: 15s</h2>
-    <h2>Cost: 300</h2>
-    <img src={'https://www.hp.com/gb-en/shop/Html/Merch/Images/c06751173_390x286.jpg'} alt="HP_15s"/>
-  </div>
+
+    <Notebook brand={'Apple'} model={'PRO'} cost={'100'} img={'https://appleinsider.ru/wp-content/uploads/2021/10/new_mbp_14_16_2_inches-750x484.jpg'}/>
+    <Notebook brand={'HP'} model={'15s'} cost={'300'} img={'https://www.hp.com/gb-en/shop/Html/Merch/Images/c06751173_390x286.jpg'}/>
+    <Notebook brand={'ASUS'} model={'17XS'} cost={'500'} img={'https://itc.ua/wp-content/uploads/2021/10/asus-vivobook-15-oled-3.jpg'}/>
 
   </div>
   );

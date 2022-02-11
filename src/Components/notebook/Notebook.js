@@ -1,9 +1,10 @@
-import React from 'react';
 
-const Notebook = (props) => {
-    let {brand, model, cost, img} = props;
+import './Notebook.css'
+
+const Notebook = ({notebook:{brand, model, cost, img}}) => {
+    
     return (
-        <div>
+        <div className={'item'}>
             <h1>Brand: {brand}</h1>
             <h2>Model: {model}</h2>
             <h2>Cost: {cost}</h2>

@@ -1,1 +1,7 @@
 
+img{
+    width: 200px;
+}
+.bodyDiv{
+    display: grid;
+}

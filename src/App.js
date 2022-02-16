@@ -1,12 +1,15 @@
 
 import './App.css';
+import {useEffect, useState} from "react";
+import Flights from "./Components/Flights";
 
 
 function App() {
+
   return (
-  <div>
+  <div className={'bodyDiv'}>
 
-
+<Flights/>
 
   </div>
   );

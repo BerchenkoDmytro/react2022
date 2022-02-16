@@ -1,0 +1,8 @@
+.FlightDiv {
+    display: flex;
+    align-items: center;
+    background: cornflowerblue;
+    margin-bottom: 10px;
+    width: fit-content;
+    justify-content: center;
+}
